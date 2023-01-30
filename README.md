@@ -1,4 +1,4 @@
-# Google-Search-Engine
+# Google-Search-Engine-lite
 
 I created this google search engine with the help of HTML,CSS and Javascript. 
 I have not used any api but this is only pure Javascript.
