@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="button">
-                <button class="searchBtn" onclick="search()">Google Search</button>
+                <button class="searchBtn">Google Search</button>
             </div>
         </div>
     </section>
@@ -33,7 +33,10 @@
                 search();
             }
         });
-
+        searchBtn.addEventListener("click",function(event){
+            search();
+        });
+        
         function search(){
             const input = query.value;
             let url = 'https://www.google.com/search?q='+ input;
