@@ -29,7 +29,7 @@
         let searchBtn = document.querySelector('.searchBtn');
 
         query.addEventListener("keydown",function(event){
-            if(event.code === "Enter"){
+            if(event.keyCode === 13 ){
                 search();
             }
         });
